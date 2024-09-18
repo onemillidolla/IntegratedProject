@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Times New Roman;
+	cursor: url("https://files.catbox.moe/qboz7z.gif"), auto;
+}
+
+.container {
+	position: relative;
+	width: 700px;
+	height: 600px;
+	margin: auto;
+	background-color: #f1f1f1;
+	border: #000 2px solid;
+	border-radius: 10px;
+	padding: 10px;
+}
+
+.center {
+  margin: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+}
+
+.line {
+	width: 400px;
+	border: 1px black solid;
+	margin: auto;
+}
+
+h1 {
+	font-size: 35px;
+	text-align: center;
+	margin: 5px;
+}
+
+p {
+	margin: 10px;
+}
+	
+.parent {
+	display: flex;
+	flex-direction: row;
+}
+
+.child1 {
+	width: 65%;
+	height: 100vh;
+	text-align: left;
+	color: black;
+}
+
+.child2 {
+	width: 35%;
+	height: 100vh;
+}
+
+.center-cropped img {
+	object-fit: cover;
+}
+
+
+</style>
+</head>
+<body>
+<div class="center">
+	<div class="container">
+    	<h1>Sustainable Polymers</h1>
+		<div class="line"></div>
+			<div class="parent">
+				<div class="child1">
+				<p>Polymers are essential in various aspects of our daily life due to
+					their low-cost, durability, flexibility, and moldability, but their
+					huge and unbalanced
+					manufacturing processes and non-degradability behavior have put a
+					burden by polluting
+					the environment due to their single-use and throw them anywhere.
+					Synthetic polymers are
+					derived from petroleum oil, and made by scientists
+					and engineers, hence the term "synthetic". These plastics are
+					non-biodegradable as their long polymer chains are too stable and
+					complex to be processed by microorganisms, taking hundreds of years
+					before they can fully break down. Their long-term presence leads to
+					soil, water and air pollution, affecting ecosystems, negatively
+					impacting animals, plants, and even humans' health.</p>
+				</div>
+				<div class="child2">
+				<div class="center-cropped"><p><img
+					src="https://file.garden/ZU-Co4jV4SO9KYS5/plastic1.jpg" width="210px"
+					height="230px"></p></div>
+				</div>
+			</div>
+			<p>hi</p>
+	</div>
+</div>
+
+</body>
+</html>

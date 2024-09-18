@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<style>
+
+* {
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Times New Roman;
+	cursor: url("https://files.catbox.moe/qboz7z.gif"), auto;
+}
+
+.shadow {
+    font-size: 35px;
+    text-shadow: 0 0 20px #fabbcd, 0 0 20px #fabbcd, 0 0 20px #fabbcd;
+    transition: 1s;
+}
+
+.shadow:hover {
+    text-shadow: 0 0 20px #e66a6a, 0 0 20px #e66a6a, 0 0 20px #e66a6a;
+}
+
+
+header {
+    padding: 10px;
+    font-size: 50px;
+    text-align: center;
+}
+
+.btn {
+	position: fixed;
+	top: 10px;
+	left: 10px;
+	right: 0;
+	bottom: 0;
+	background-image: url("https://files.catbox.moe/bunnyd.png") no-repeat fixed;
+	width: 200px;
+	height: 200px;
+}
+
+.float {
+    position: relative;
+    background-color: none;
+    animation: mymove 1s infinite alternate;
+    animation-timing-function: ease-in-out;
+}
+
+section {
+	display: flex;
+	justify-content: space-between;
+}
+
+nav, article, aside {
+ 	width: 31%;
+ 	height: 650px;
+	background: #e8fbc5;
+	padding: 20px;
+	border-radius: 20px;
+	position: relative;
+	box-shadow: 0 3px 10px #e0e0e0;
+	transition: 1s;
+	border: #b1c48d 1px solid;
+	z-index: 10;
+	overflow-x: auto;
+}
+
+footer {
+  background-color: #e8fbc5;
+  padding: 10px;
+  text-align: center;
+  color: black;
+}
+
+
+nav:hover, article:hover, aside:hover {
+	cursor: url("https://files.catbox.moe/xg4wij.gif"), auto;
+	transform: translateY(-10px);
+	box-shadow: 0 20px 25px #e0e0e0;
+}
+
+@keyframes mymove {
+  0% {top: 0px;}
+  100% {top: 20px;}
+}
+
+video {
+  display: block;
+  margin: auto;
+}
+
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+</style>
+</head>
+<body>
+<header><div class="shadow">
+    <h1>Asexual Reproduction in Plants</h1>
+</div></header>
+
+	<div class="btn">
+	    <img src="https://files.catbox.moe/bunnyd.png" width="30">
+	</div>
+	
+<section>
+	<nav>
+	<h2>Budding  <img src="https://files.catbox.moe/xromeu.png" height="20"></h2>
+		<p>Budding is an artificial asexual reproduction method in which a new organism develops from a bud of an existing organism. Until the new organism matures, it remains attached to the parent organism.</p>
+	</nav>
+
+	<article>
+	<h2>How does it work? <img src="https://files.catbox.moe/3pg6x4.gif" height="20"></h2>
+	<p>A new organism is developed from a small part of the parent's body. A bud which is formed detaches to develop into a new organism which remains attached as it grows further. It is separated from the parent organism when it matures, leaving scar tissues behind. The newly developed organism is a replica of the parent and is genetically identical.</p><br>
+		<img src="https://file.garden/ZU-Co4jV4SO9KYS5/76e7ab98-c4d1-45a7-a33c-11007170a14b.png" width="100%" class="center">
+	</article>
+
+	<aside>
+		<h2>Examples  <img src="https://files.catbox.moe/tc6f8b.webp" height="20"></h2>
+		<h3>Apple Trees</h3>
+		<p>T-budding is one of the most commonly used method of apple tree propagation, where a bud rather than shoot is attached to a rootstock to make a new plant.</p>
+		<h3>Roses</h3>
+		<p>A bud is removed from the parent plant, and the base of the bud is inserted beneath the bark of the stem of the stock plant from which the rest of the shoot has been cut.</p>
+		<h3>Citrus Trees</h3>
+		<p>Budwood is a stick with several buds on it that can be cut out and used for budding. It is a common method of propagation for citrus trees.</p>
+		<h3>Others</h3>
+		<p>Other examples of plants that reproduce with budding include cherries, ornamental plants, peach, and plums.</p>
+	</aside>
+</section>	
+
+</body>
+</html>
